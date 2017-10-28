@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="4dp">
+
+    <ImageView
+        android:id="@+id/messageImgV"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/ic_launcher"
+        tools:src="@mipmap/ic_launcher"
+        android:contentDescription="@string/app_name"/>
+
+    <RelativeLayout
+        android:id="@+id/middle_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="24dp"
+        android:layout_toRightOf="@id/messageImgV"
+        android:layout_toEndOf="@+id/messageImgV">
+
+        <TextView
+            android:id="@+id/messUserNameTV"
+            style="@style/Base.TextAppearance.AppCompat.Caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray"
+            android:textSize="14sp"
+            tools:text="Artist 10" />
+
+        <TextView
+            android:id="@+id/messageTV"
+            android:layout_below="@id/messUserNameTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            tools:text="This is where the broadcast will go" />
+
+
+        <TextView
+            android:id="@+id/messTimestampTv"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/messageTV"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            style="@style/Base.TextAppearance.AppCompat.Caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray"
+            tools:text="XXX 22, 2017" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/item_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_overflow"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:tint="@color/gray"
+        android:contentDescription="@string/post_options" />
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "186097855346",
+    "firebase_url": "https://fandom-df450.firebaseio.com",
+    "project_id": "fandom-df450",
+    "storage_bucket": "fandom-df450.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186097855346:android:0cae71178b48ec4d",
+        "android_client_info": {
+          "package_name": "com.example.deoncole.fandom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186097855346-a5oeflrb4o9head7eosiunbu0kn968ku.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.deoncole.fandom",
+            "certificate_hash": "e9f357f2a1e75f408789460d5e72e535ba97f27e"
+          }
+        },
+        {
+          "client_id": "186097855346-ae7im96lcjl2ks7565mf97git3l2kr1u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA55gVAVdIF9lGueRbklVF-0b9ZIapnlkE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186097855346-ae7im96lcjl2ks7565mf97git3l2kr1u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

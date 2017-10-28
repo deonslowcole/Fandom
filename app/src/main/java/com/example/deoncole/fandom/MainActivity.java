@@ -53,13 +53,6 @@ public class MainActivity extends AppCompatActivity {
 
         Log.d(TAG, "Refreshed Token: " + refreshToken);
 
-//        if ((ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager
-//                .PERMISSION_GRANTED) || (ContextCompat.checkSelfPermission(this, Manifest
-//                .permission.RECORD_AUDIO) != PackageManager.PERMISSION_GRANTED)) {
-//            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CAMERA,
-//                    Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.RECORD_AUDIO}, 0);
-//        }
-
         requestPermissions();
 
         signUpBt.setOnClickListener(new View.OnClickListener() {
@@ -96,10 +89,8 @@ public class MainActivity extends AppCompatActivity {
                 Manifest.permission.WRITE_EXTERNAL_STORAGE
         };
         if (EasyPermissions.hasPermissions(this, perms)) {
-//            mSession = new Session.Builder(MainActivity.this, OpenTokConfig.API_KEY, OpenTokConfig.SESSION_ID).build();
-//            mSession.setSessionListener(this);
-//            mSession.connect(OpenTokConfig.TOKEN);
-            Toast.makeText(this, "App is ready to use.", Toast.LENGTH_SHORT).show();
+
+            Toast.makeText(this, "Logging you in", Toast.LENGTH_SHORT).show();
         } else {
             EasyPermissions.requestPermissions(this,
                     "This app needs access to your camera and mic so you can perform video calls",

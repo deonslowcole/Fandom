@@ -101,14 +101,6 @@ public class MusicianDashboardActivity extends AppCompatActivity {
 
         fetchArtist();
 
-        artistTitleImg.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "Change Profile Picture", Toast
-                        .LENGTH_SHORT).show();
-            }
-        });
-
         imageToSendImgV.setVisibility(View.GONE);
         messTakePicImgV.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -149,6 +141,9 @@ public class MusicianDashboardActivity extends AppCompatActivity {
             case R.id.action_logout:
                 mAuth.signOut();
                 activityIntent(MainActivity.class);
+                break;
+            case R.id.action_profile:
+                activityIntent(ProfileActivity.class);
                 break;
 
         }

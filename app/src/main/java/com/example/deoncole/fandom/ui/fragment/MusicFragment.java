@@ -3,16 +3,12 @@ package com.example.deoncole.fandom.ui.fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 import android.support.v4.app.ListFragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-import com.example.deoncole.fandom.ArtistFeedActivity;
 import com.example.deoncole.fandom.ArtistSongPreviewActivity;
 import com.example.deoncole.fandom.R;
 import com.example.deoncole.fandom.model.ArtistSongs;

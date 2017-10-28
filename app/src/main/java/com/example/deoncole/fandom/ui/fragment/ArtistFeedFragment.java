@@ -8,7 +8,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.deoncole.fandom.R;
-import com.example.deoncole.fandom.model.Artist;
 import com.example.deoncole.fandom.ui.view.broadcast.BroadcastsView;
 
 public class ArtistFeedFragment extends Fragment{

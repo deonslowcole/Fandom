@@ -29,12 +29,6 @@
         android:title="@string/audio_messages"/>
 
     <item
-        android:id="@+id/action_video_streams"
-        android:orderInCategory="100"
-        app:showAsAction="never"
-        android:title="@string/video_stream"/>
-
-    <item
         android:id="@+id/action_profile"
         android:orderInCategory="100"
         app:showAsAction="never"
